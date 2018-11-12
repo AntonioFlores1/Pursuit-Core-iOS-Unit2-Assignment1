@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		555A89922197C3E500A4FD4E /* startMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A89912197C3E500A4FD4E /* startMenuViewController.swift */; };
+		555A89A8219939CC00A4FD4E /* Pim Poy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 555A89A7219939CC00A4FD4E /* Pim Poy.wav */; };
+		555A89AA2199460100A4FD4E /* scoreBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A89A92199460100A4FD4E /* scoreBoardViewController.swift */; };
 		57A2EF472194DBAF009B12CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2EF462194DBAF009B12CA /* AppDelegate.swift */; };
 		57A2EF492194DBAF009B12CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2EF482194DBAF009B12CA /* ViewController.swift */; };
 		57A2EF4C2194DBAF009B12CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A2EF4A2194DBAF009B12CA /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		555A89912197C3E500A4FD4E /* startMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startMenuViewController.swift; sourceTree = "<group>"; };
+		555A89A7219939CC00A4FD4E /* Pim Poy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Pim Poy.wav"; sourceTree = "<group>"; };
+		555A89A92199460100A4FD4E /* scoreBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreBoardViewController.swift; sourceTree = "<group>"; };
 		57A2EF432194DBAF009B12CA /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A2EF462194DBAF009B12CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57A2EF482194DBAF009B12CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		555A89A62199398600A4FD4E /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				555A89A7219939CC00A4FD4E /* Pim Poy.wav */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		57A2EF3A2194DBAF009B12CA = {
 			isa = PBXGroup;
 			children = (
@@ -59,9 +73,12 @@
 			isa = PBXGroup;
 			children = (
 				57A2EF462194DBAF009B12CA /* AppDelegate.swift */,
+				555A89912197C3E500A4FD4E /* startMenuViewController.swift */,
 				57A2EF482194DBAF009B12CA /* ViewController.swift */,
 				57A2EF4A2194DBAF009B12CA /* Main.storyboard */,
+				555A89A92199460100A4FD4E /* scoreBoardViewController.swift */,
 				57A2EF582194DBFD009B12CA /* GameButton.swift */,
+				555A89A62199398600A4FD4E /* Music */,
 				57A2EF5A2194DC83009B12CA /* TicTacToeBrain.swift */,
 				57A2EF4D2194DBB0009B12CA /* Assets.xcassets */,
 				57A2EF4F2194DBB0009B12CA /* LaunchScreen.storyboard */,
@@ -129,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57A2EF512194DBB0009B12CA /* LaunchScreen.storyboard in Resources */,
+				555A89A8219939CC00A4FD4E /* Pim Poy.wav in Resources */,
 				57A2EF4E2194DBB0009B12CA /* Assets.xcassets in Resources */,
 				57A2EF4C2194DBAF009B12CA /* Main.storyboard in Resources */,
 			);
@@ -141,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555A89AA2199460100A4FD4E /* scoreBoardViewController.swift in Sources */,
 				57A2EF492194DBAF009B12CA /* ViewController.swift in Sources */,
+				555A89922197C3E500A4FD4E /* startMenuViewController.swift in Sources */,
 				57A2EF592194DBFD009B12CA /* GameButton.swift in Sources */,
 				57A2EF472194DBAF009B12CA /* AppDelegate.swift in Sources */,
 				57A2EF5B2194DC83009B12CA /* TicTacToeBrain.swift in Sources */,
