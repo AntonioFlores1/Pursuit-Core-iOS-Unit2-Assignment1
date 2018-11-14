@@ -15,6 +15,7 @@ class startMenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "Pim Poy", ofType: "wav")!))
         }

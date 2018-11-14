@@ -67,22 +67,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="mkn-7t-R4H">
-                                <rect key="frame" x="20" y="288" width="374" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Fje-Nb-tq6">
+                                <rect key="frame" x="20" y="326" width="374" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="1" green="0.27005745060000003" blue="0.272066945" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="yes" smartDashesType="no"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="FGX-Hw-fkD">
+                                <rect key="frame" x="20" y="354" width="374" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="yes" smartDashesType="no"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="JXG-VG-bBA">
+                                <rect key="frame" x="20" y="383" width="374" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="yes" smartDashesType="no"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="mkn-7t-R4H">
+                                <rect key="frame" x="20" y="298" width="374" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="textColor"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="yes" smartDashesType="no"/>
                             </textField>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="107" translatesAutoresizingMaskIntoConstraints="NO" id="Acg-ly-qEB">
-                                <rect key="frame" x="19" y="326" width="375" height="107"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Acg-ly-qEB" id="eWY-vj-ooW">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="106.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="oJt-m8-xad"/>
                     </view>
                 </viewController>
@@ -232,7 +250,7 @@
                                 <rect key="frame" x="136" y="753" width="142" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="New Game ">
-                                    <color key="titleColor" red="0.53094409714223834" green="0.90498857789999998" blue="0.46774513384227362" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" red="0.37273926380813327" green="0.79278300209999997" blue="0.7668322314477275" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QHm-lN-g6k"/>
@@ -296,8 +314,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
@@ -313,6 +331,15 @@
                         <outlet property="button7" destination="loz-Nb-npc" id="OhE-jK-VG1"/>
                         <outlet property="button8" destination="ABo-2D-Hwh" id="CfE-lN-aaw"/>
                         <outlet property="whoWon" destination="Jo3-o5-zgZ" id="Ery-xm-btC"/>
+                        <outletCollection property="allButtons" destination="6Sg-N3-bki" collectionClass="NSMutableArray" id="mGW-KO-2PQ"/>
+                        <outletCollection property="allButtons" destination="0Wp-qA-QLG" collectionClass="NSMutableArray" id="YZV-wZ-dXw"/>
+                        <outletCollection property="allButtons" destination="KFH-vK-zax" collectionClass="NSMutableArray" id="u0P-ja-tzC"/>
+                        <outletCollection property="allButtons" destination="Aet-A7-Vdz" collectionClass="NSMutableArray" id="tgZ-aO-T2M"/>
+                        <outletCollection property="allButtons" destination="ZT0-vJ-eRq" collectionClass="NSMutableArray" id="vMA-na-wqm"/>
+                        <outletCollection property="allButtons" destination="Nxn-yj-yVb" collectionClass="NSMutableArray" id="bqv-sE-wCM"/>
+                        <outletCollection property="allButtons" destination="bzo-fy-m2Z" collectionClass="NSMutableArray" id="7p3-7b-R86"/>
+                        <outletCollection property="allButtons" destination="loz-Nb-npc" collectionClass="NSMutableArray" id="Efe-4U-ucx"/>
+                        <outletCollection property="allButtons" destination="ABo-2D-Hwh" collectionClass="NSMutableArray" id="S31-H7-oDj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -324,9 +351,10 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fgf-Rn-qjF" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LUT-2E-e8x">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="blackTranslucent" id="LUT-2E-e8x">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -342,4 +370,5 @@
         <image name="glowtac" width="550" height="639"/>
         <image name="newLogo" width="742" height="612"/>
     </resources>
+    <color key="tintColor" red="0.53094409710000001" green="0.90498857789999998" blue="0.46774513379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
